@@ -25,94 +25,232 @@ Comandos retirados do site de [Emerson Barros](https://emersonbarros.com.br/dock
 
 Segue a lista de comandos docker e sua utilidade:
 
-docker attach  – Acessar dentro do container e trabalhar a partir dele.
+– Acessar dentro do container e trabalhar a partir dele.
+```
+docker attach
+```
 
-docker build   – A partir de instruções de um arquivo Dockerfile eu possa criar uma imagem.
+– A partir de instruções de um arquivo Dockerfile eu possa criar uma imagem.
+```
+docker build
+```
 
-docker commit  – Cria uma imagem a partir de um container.
+ – Cria uma imagem a partir de um container.
+```
+docker commit 
+```
 
-docker cp      – Copia arquivos ou diretórios do container para o host.
+– Copia arquivos ou diretórios do container para o host.
+```
+docker cp      
+```
 
-docker create  – Cria um novo container.
+– Cria um novo container.
+```
+docker create  
+```
 
-docker diff    – Exibe as alterações feitas no filesystem do container.
+– Exibe as alterações feitas no filesystem do container.
+```
+docker diff    
+```
 
-docker events  – Exibe os eventos do container em tempo real.
+- Exibe os eventos do container em tempo real.
+```
+docker events
+```
 
-docker exec    – Executa uma instrução dentro do container que está rodando sem precisar atachar nele.
+- Executa uma instrução dentro do container que está rodando sem precisar atachar nele.
+```
+docker exec 
+```
 
-docker export  – Exporta um container para um arquivo .tar.
+- Exporta um container para um arquivo .tar.
+```
+docker export
+```
 
-docker history – Exibe o histórico de comandos que foram executados dentro do container.
+- Exibe o histórico de comandos que foram executados dentro do container.
+```
+docker history
+```
 
-docker images  – Lista as imagens disponíveis no host.
+- Lista as imagens disponíveis no host.
+```
+docker images
+```
 
-docker import  – Importa uma imagem .tar para o host.
+– Importa uma imagem .tar para o host.
+```
+docker import  
+```
 
-docker info    – Exibe as informações sobre o host.
+– Exibe as informações sobre o host.
+```
+docker info    
+```
 
-docker inspect – Exibe r o json com todas as configurações do container.
+– Exibe r o json com todas as configurações do container.
+```
+docker inspect 
+```
 
-docker kill    – Da Poweroff no container.
+– Da Poweroff no container.
+```
+docker kill    
+```
 
-docker load    – Carrega a imagem de um arquivo .tar.
+ – Carrega a imagem de um arquivo .tar.
+```
+docker load   
+```
 
-docker login   – Registra ou faz o login em um servidor de registry.
+– Registra ou faz o login em um servidor de registry.
+```
+docker login   
+```
 
-docker logout  – Faz o logout de um servidor de registry.
+– Faz o logout de um servidor de registry.
+```
+docker logout  
+```
 
-docker logs    – Exibe os logs de um container.
+– Exibe os logs de um container.
+```
+docker logs    
+```
 
-docker port    – Abre uma porta do host e do container.
+– Abre uma porta do host e do container.
+```
+docker port    
+```
 
-docker network – Gerenciamento das redes do Docker.
+– Gerenciamento das redes do Docker.
+```
+docker network 
+```
 
-docker node    – Gerenciamento dos nodes do Docker Swarm.
+– Gerenciamento dos nodes do Docker Swarm.
+```
+docker node    
+```
 
-docker pause   – Pausa o container.
+– Pausa o container.
+```
+docker pause   
+```
 
-docker port    – Lista as portas mapeadas de um container.
+– Lista as portas mapeadas de um container.
+```
+docker port    
+```
 
-docker ps      – Lista todos os containers.
+– Lista todos os containers.
+```
+docker ps      
+```
 
-docker pull    – Faz o pull de uma imagem a partir de um servidor de registry.
+– Faz o pull de uma imagem a partir de um servidor de registry.
+```
+docker pull    
+```
 
-docker push    – Faz o push de uma imagem a partir de um servidor de registry.
+– Faz o push de uma imagem a partir de um servidor de registry.
+```
+docker push    
+```
 
-docker rename  – Renomeia um container existente.
+– Renomeia um container existente.
+```
+docker rename  
+```
 
-docker restart – Restarta um container que está rodando ou parado.
+– Restarta um container que está rodando ou parado.
+```
+docker restart 
+```
 
-docker rm      – Remove um ou mais containeres.
+– Remove um ou mais containeres.
+```
+docker rm      
+```
 
-docker rmi     – Remove uma ou mais imagens.
+– Remove uma ou mais imagens.
+```
+docker rmi     
+```
 
-docker run     – Executa um comando em um novo container.
+ – Executa um comando em um novo container.
+```
+docker run    
+```
 
-docker save    – Salva a imagem em um arquivo .tar.
+– Salva a imagem em um arquivo .tar.
+```
+docker save    
+```
 
-docker search  – Procura por uma imagem no Docker Hub.
+– Procura por uma imagem no Docker Hub.
+```
+docker search  
+```
 
-docker service – Gernciamento dos serviços do Docker.
+– Gernciamento dos serviços do Docker.
+```
+docker service
+```
 
-docker start   – Inicia um container que esteja parado.
+– Inicia um container que esteja parado.
+```
+docker start   
+```
 
-docker stats   – Exibe informações de uso de CPU, memória e rede.
+– Exibe informações de uso de CPU, memória e rede.
+```
+docker stats   
+```
 
-docker stop    – Para um container que esteja rodando.
+– Para um container que esteja rodando.
+```
+docker stop    
+```
 
-docker swarm   – Clusterização das aplicações em uma orquestração de várias containers, aplicações junto.
+– Clusterização das aplicações em uma orquestração de várias containers, aplicações junto.
+```
+docker swarm   
+```
 
-docker tag     – Coloca tag em uma imagem para o repositorio.
+– Coloca tag em uma imagem para o repositorio.
+```
+docker tag     
+```
 
-docker top     – Exibe os processos rodando em um container.
+– Exibe os processos rodando em um container.
+```
+docker top    
+```
 
-docker unpause – Inicia um container que está em pause.
+– Inicia um container que está em pause.
+```
+docker unpause 
+```
 
-docker update  – Atualiza a configuração de um ou mais containers.
+– Atualiza a configuração de um ou mais containers.
+```
+docker update  
+```
 
-docker version – Exibe as versões de API, Client e Server do host.
+– Exibe as versões de API, Client e Server do host.
+```
+docker version 
+```
 
-docker volume  – Gerenciamento dos volumes no Docker.
+– Gerenciamento dos volumes no Docker.
+```
+docker volume  
+```
 
-docker wait    – Aguarda o retorno da execução de um container para iniciar esse container.
+– Aguarda o retorno da execução de um container para iniciar esse container.
+```
+docker wait    
+```
