@@ -20,7 +20,12 @@ docker image rm $(docker image ls -a -q)
 Comandos retirados do site de [Emerson Barros](https://emersonbarros.com.br/docker-parar-remover-todos-os-containers-docker/).
 
 
+# Fazendo backup e restore dos container docker
+# Backup
+docker exec CONTAINER /usr/bin/mysqldump -u root --password=root DATABASE > backup.sql
 
+# Restore
+cat backup.sql | docker exec -i CONTAINER /usr/bin/mysql -u root --password=root DATABASE
 
 
 # Segue a lista de comandos docker e sua utilidade:
