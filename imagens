@@ -1,0 +1,7 @@
+Mongo DB
+
+Instalar imagem:
+docker pull mongo
+
+Executar imagem:
+docker run --name mongodb -p 27017:27017 -d
